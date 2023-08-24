@@ -28,7 +28,7 @@ console.log(typeof y);
 console.log(typeof z); */
 
 
-//CONCATENATION
+/* //CONCATENATION
 let name = "Meh";
 let age = 25
 console.log('My name is '+ name + " and my age is " + age);
@@ -36,6 +36,13 @@ console.log('My name is '+ name + " and my age is " + age);
 console.log(`My name is ${name} and my age is ${age}`);
 //OR
 const intro = `My name is ${name} and my age is ${age}`;
-console.log(intro);
+console.log(intro); */
+
+
+//STRINGS_LENGTH
+const greeting = 'hello world!';
+console.log(greeting.length);
+
+
 
 
