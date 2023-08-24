@@ -49,12 +49,19 @@ console.log(greeting.substring(6,11));
 console.log(greeting.substring(0,5).toUpperCase); */
 
 
-const greeting = 'hello world!';
+/* const greeting = 'hello world!';
 console.log(greeting.split('')); // shows array index of each letter
 
 const words = 'technology, world!, computers, it, code, javascript, css, html';
-console.log(words.split(',')); // shows array index of each word
+console.log(words.split(',')); // shows array index of each word */
 
 
+//ARRAY - VARIABLE THAT HOLDS MULTIPLE VALUES
+const number = new Array(1,2,3,4,5);
+console.log(number);
 
+const fruits = ['apples', 'oranges', 'mangos', 'pears'];
+console.log(fruits);
 
+const mix_fruits = ['apples', 'oranges', 'mangos', 'pears', 10, true];
+console.log(mix_fruits);
