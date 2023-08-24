@@ -112,7 +112,7 @@ console.log(person.hobbies.indexOf('movies')); */
 console.log(firstName);
 console.log(city);  */
 
-
+/* 
 const todos = [
     {
         id: 1,
@@ -129,11 +129,17 @@ const todos = [
         text: 'Dentist appointment',
         isCompleted: false
     }
-];
+]; */
 
 /* console.log(todos);
 console.log(todos[1].text); */
 
-//TO CONVERT INTO JSON FORM
+/* //TO CONVERT INTO JSON FORM
 const todoJSON = JSON.stringify(todos);
-console.log(todoJSON);
+console.log(todoJSON); */
+
+
+//FOR LOOP
+for(i=0; i<=15; i++){
+    console.log(i);
+}
