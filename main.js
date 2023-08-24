@@ -86,7 +86,7 @@ console.log(mix_fruits.indexOf('mangos')); // to check array index of item
 console.log(fruits); */
 
 
-//OBJECTS
+/* //OBJECTS
 const person = {
     firstName: 'Meh',
     lastName: 'Doe',
@@ -108,6 +108,27 @@ console.log(person.address.state);
 console.log(person.hobbies[2]);
 console.log(person.hobbies.indexOf('movies')); */
 
-const {firstName, lastName, address:{city}} = person;
+/* const {firstName, lastName, address:{city}} = person;
 console.log(firstName);
-console.log(city);
+console.log(city);  */
+
+
+const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: 'meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: 'Dentist appointment',
+        isCompleted: false
+    }
+];
+
+console.log(todos);
