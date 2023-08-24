@@ -42,6 +42,13 @@ console.log(intro); */
 //STRINGS_LENGTH
 const greeting = 'hello world!';
 console.log(greeting.length);
+console.log(greeting.toUpperCase());
+console.log(greeting.toLowerCase());
+console.log(greeting.substring(0,5));
+console.log(greeting.substring(6,11));
+console.log(greeting.substring(0,5).toUpperCase);
+
+
 
 
 
