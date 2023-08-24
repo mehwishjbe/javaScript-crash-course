@@ -139,7 +139,15 @@ const todoJSON = JSON.stringify(todos);
 console.log(todoJSON); */
 
 
-//FOR LOOP
+/* //FOR LOOP
 for(i=0; i<=15; i++){
     console.log(i);
+}*/
+
+
+//WHILE LOOP
+let i = 0;
+while(i<10){
+    console.log(`While Loop Number: ${i}`);
+    i++;
 }
