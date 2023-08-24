@@ -70,4 +70,13 @@ console.log(mix_fruits[3]);
 mix_fruits[6] = 'grapes';
 console.log(mix_fruits);
 
+mix_fruits.push('eisbergsalat')     // add array item to last index
+console.log(mix_fruits);
+
+mix_fruits.unshift('strawberries') // add array item to first index
+console.log(mix_fruits);
+
+mix_fruits.pop() // to delete array item from last index
+console.log(mix_fruits);
+
 
