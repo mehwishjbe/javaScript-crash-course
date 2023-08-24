@@ -56,7 +56,7 @@ const words = 'technology, world!, computers, it, code, javascript, css, html';
 console.log(words.split(',')); // shows array index of each word */
 
 
-//ARRAY - VARIABLE THAT HOLDS MULTIPLE VALUES
+/* //ARRAY - VARIABLE THAT HOLDS MULTIPLE VALUES
 const number = new Array(1,2,3,4,5);
 console.log(number);
 
@@ -82,5 +82,25 @@ console.log(mix_fruits);
 console.log(Array.isArray('apples')); // to check if item is in array
 console.log(fruits);
 
-console.log(mix_fruits.indexOf('mangos')); // to check if item is in array
-console.log(fruits);
+console.log(mix_fruits.indexOf('mangos')); // to check array index of item
+console.log(fruits); */
+
+
+//OBJECTS
+const person = {
+    firstName: 'Meh',
+    lastName: 'Doe',
+    age:25,
+    hobbies: ['music', 'books', 'sports', 'movies'],
+    address:{
+        street: 'Route 9',
+        city: 'Philadelphia',
+        state: 'Pennsylvania'
+    }
+}
+
+console.log(person);
+console.log(person.lastName);
+console.log(person.address.state);
+console.log(person.hobbies[2]);
+console.log(person.hobbies.indexOf('movies'));
