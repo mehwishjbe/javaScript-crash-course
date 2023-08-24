@@ -132,3 +132,4 @@ const todos = [
 ];
 
 console.log(todos);
+console.log(todos[1].text);
