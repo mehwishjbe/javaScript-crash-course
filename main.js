@@ -98,9 +98,12 @@ const person = {
         state: 'Pennsylvania'
     }
 }
-
-console.log(person);
+/* console.log(person);
 console.log(person.lastName);
 console.log(person.address.state);
 console.log(person.hobbies[2]);
-console.log(person.hobbies.indexOf('movies'));
+console.log(person.hobbies.indexOf('movies')); */
+
+const {firstName, lastName, address:{city}} = person;
+console.log(firstName);
+console.log(city);
