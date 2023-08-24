@@ -131,5 +131,9 @@ const todos = [
     }
 ];
 
-console.log(todos);
-console.log(todos[1].text);
+/* console.log(todos);
+console.log(todos[1].text); */
+
+//TO CONVERT INTO JSON FORM
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON);
