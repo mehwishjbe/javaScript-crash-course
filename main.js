@@ -79,4 +79,8 @@ console.log(mix_fruits);
 mix_fruits.pop() // to delete array item from last index
 console.log(mix_fruits);
 
+console.log(Array.isArray('apples')); // to check if item is in array
+console.log(fruits);
 
+console.log(mix_fruits.indexOf('mangos')); // to check if item is in array
+console.log(fruits);
