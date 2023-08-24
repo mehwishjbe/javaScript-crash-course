@@ -65,3 +65,9 @@ console.log(fruits);
 
 const mix_fruits = ['apples', 'oranges', 'mangos', 'pears', 10, true];
 console.log(mix_fruits);
+console.log(mix_fruits[3]);
+
+mix_fruits[6] = 'grapes';
+console.log(mix_fruits);
+
+
