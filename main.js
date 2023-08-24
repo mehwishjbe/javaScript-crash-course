@@ -39,16 +39,21 @@ const intro = `My name is ${name} and my age is ${age}`;
 console.log(intro); */
 
 
-//STRINGS_LENGTH
+/* //STRINGS_LENGTH
 const greeting = 'hello world!';
 console.log(greeting.length);
 console.log(greeting.toUpperCase());
 console.log(greeting.toLowerCase());
 console.log(greeting.substring(0,5));
 console.log(greeting.substring(6,11));
-console.log(greeting.substring(0,5).toUpperCase);
+console.log(greeting.substring(0,5).toUpperCase); */
 
 
+const greeting = 'hello world!';
+console.log(greeting.split('')); // shows array index of each letter
+
+const words = 'technology, world!, computers, it, code, javascript, css, html';
+console.log(words.split(',')); // shows array index of each word
 
 
 
