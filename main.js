@@ -98,6 +98,10 @@ const person = {
         state: 'Pennsylvania'
     }
 }
+
+person.email = 'meh@gmail.com'
+console.log(person);
+
 /* console.log(person);
 console.log(person.lastName);
 console.log(person.address.state);
