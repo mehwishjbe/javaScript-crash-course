@@ -215,9 +215,18 @@ function sum(num1, num2) {
   let result = sum(4, 4);
   console.log(result); */
 
-//FUNCTIONS TWO
+/* //FUNCTIONS TWO
 function greeting(user) {
     return `Guten ${user}`;
   }
   let greet = greeting("Meh");
-  console.log(greet);
+  console.log(greet); */
+
+  //FUNCTIONS THREE
+  function seeOff(guest) {
+    return  `See you soon ${guest}`;
+ }
+ let guest ="JBE";
+ let seeOff1 = seeOff(guest);
+ console.log(seeOff1);
+
