@@ -204,4 +204,4 @@ let person = {
         brand: 'hp'
     }
 }
-console.log(person.laptop.brand);
+console.log(person.laptop.speed?.length);
