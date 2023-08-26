@@ -240,7 +240,7 @@ function greeting(user) {
  }
  let receive = table(9); */
 
-//FUNCTIONS FIVE
+/* //FUNCTIONS FIVE
 function precessor(num, num1) {
 
     let a = --num;
@@ -250,6 +250,17 @@ function precessor(num, num1) {
 }
 let num= 5;
 let num1 = 5;
-let receive = precessor(num, num1);
+let receive = precessor(num, num1); */
+
+
+//FUNCTION EXPRESSION
+//assigning a function to variable is called function expression
+let add = function(num1, num2){
+
+    return num1 + num2;
+}
+
+let receive = add(30, 30);
+console.log(receive);
 
 
