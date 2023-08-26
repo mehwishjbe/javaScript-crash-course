@@ -208,11 +208,16 @@ delete person.address
 console.log(person); */
 
 
-
-//FUNCTIONS ONE
+/* //FUNCTIONS ONE
 function sum(num1, num2) {
-   return num1 * num2
- }
- let result = sum(4, 4);
- console.log(result);
+    return num1 * num2
+  }
+  let result = sum(4, 4);
+  console.log(result); */
 
+//FUNCTIONS TWO
+function greeting(user) {
+    return `Guten ${user}`;
+  }
+  let greet = greeting("Meh");
+  console.log(greet);
