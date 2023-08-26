@@ -263,15 +263,25 @@ console.log(receive); */
 
 
 //CONDITIONS      //IF-ELSE
-const x = 13;
+/* const x = 13;
 
-if (x ==10){
+if (x == 10){
     console.log('x is 10');
 }else if (x > 10) {
     console.log("X is greater than 10");
 }else{
     console.log("X is smaller 10");
-}
+} */
 
+
+let a = 120, b =29, c=20;
+
+if(a > b && a > c){
+    console.log("a is greater than all");
+}else if (b > a || b > c) {
+    console.log("b is greater than all");
+} else{
+    console.log("c is greater than all");
+}
 
 
