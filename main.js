@@ -274,7 +274,7 @@ if (x == 10){
 } */
 
 
-let a = 120, b =29, c=20;
+/* let a = 120, b =29, c=20;
 
 if(a > b && a > c){
     console.log("a is greater than all");
@@ -282,10 +282,29 @@ if(a > b && a > c){
     console.log("b is greater than all");
 } else{
     console.log("c is greater than all");
-}
+} */
 
-//TERNARY OPERATOR
-
+/* //TERNARY OPERATOR
 const x = 10;
 const color = x >= 10 ? 'red' : 'blue' //if x is greater equal to 10 ? THAN set to 'red' : ELSE set to 'blue'
-console.log(color);
+console.log(color); */
+
+
+//SWITCH STATEMENT
+let color = 'red'
+
+switch (color) {
+    case 'red': 
+        console.log('color is red');
+        break;
+    case 'blue': 
+        console.log('color is blue');
+        break;
+    case 'yellow': 
+        console.log('color is yellow');
+        break;
+
+    default:
+        console.log('color is not match');
+        break;
+}
