@@ -253,14 +253,25 @@ let num1 = 5;
 let receive = precessor(num, num1); */
 
 
-//FUNCTION EXPRESSION
+/* //FUNCTION EXPRESSION
 //assigning a function to variable is called function expression
 let add = function(num1, num2){
-
     return num1 + num2;
 }
-
 let receive = add(30, 30);
-console.log(receive);
+console.log(receive); */
+
+
+//CONDITIONS      //IF-ELSE
+const x = 13;
+
+if (x ==10){
+    console.log('x is 10');
+}else if (x > 10) {
+    console.log("X is greater than 10");
+}else{
+    console.log("X is smaller 10");
+}
+
 
 
