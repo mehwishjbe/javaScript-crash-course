@@ -222,11 +222,21 @@ function greeting(user) {
   let greet = greeting("Meh");
   console.log(greet); */
 
-  //FUNCTIONS THREE
+ /*  //FUNCTIONS THREE
   function seeOff(guest) {
     return  `See you soon ${guest}`;
  }
  let guest ="JBE";
  let seeOff1 = seeOff(guest);
- console.log(seeOff1);
+ console.log(seeOff1); */
+
+ //FUNCTIONS FOUR
+ function table(num1) {
+    for(i=1; i<=10; i++)
+    {
+        let mul = num1 * i;
+        console.log(`${num1} x ${i} = ${num1}*${mul}`);
+    }
+ }
+ let receive = table(9);
 
