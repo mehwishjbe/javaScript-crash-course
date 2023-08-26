@@ -211,6 +211,8 @@ console.log(person); */
 
 //FUNCTIONS
 function greeting() {
-    console.log("Guten Morgan");
+   return "Guten Morgan";
 }
-greeting();
+
+let ciao = greeting();
+console.log(ciao);
