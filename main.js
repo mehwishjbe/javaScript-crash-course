@@ -191,7 +191,7 @@ const todoCompleted = todos.map(function(todo)
 console.log(todoText); */
 
 
-//OBJECT PRACTICE
+/* //OBJECT PRACTICE
 let person = {
     firstName:'John',
     lastName: 'Doe',
@@ -204,6 +204,13 @@ let person = {
         brand: 'hp'
     }
 }
-
 delete person.address
-console.log(person);
+console.log(person); */
+
+
+
+//FUNCTIONS
+function greeting() {
+    console.log("Guten Morgan");
+}
+greeting();
