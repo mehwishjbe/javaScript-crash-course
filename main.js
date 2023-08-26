@@ -172,6 +172,14 @@ const todos = [
 
 //forEach, map, filter
 
+//forEach
 todos.forEach(function(todo){
     console.log(todo.text);
 });
+
+//map
+const todoText = todos.map(function(todo)
+{
+    return todo.text;
+});
+
