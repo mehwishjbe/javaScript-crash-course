@@ -209,10 +209,10 @@ console.log(person); */
 
 
 
-//FUNCTIONS
-function greeting() {
-   return "Guten Morgan";
-}
+//FUNCTIONS ONE
+function sum(num1, num2) {
+   return num1 * num2
+ }
+ let result = sum(4, 4);
+ console.log(result);
 
-let ciao = greeting();
-console.log(ciao);
