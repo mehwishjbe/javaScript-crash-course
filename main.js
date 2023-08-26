@@ -204,4 +204,6 @@ let person = {
         brand: 'hp'
     }
 }
-console.log(person.laptop.speed?.length);
+
+delete person.address
+console.log(person);
