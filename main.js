@@ -183,3 +183,9 @@ const todoText = todos.map(function(todo)
     return todo.text;
 });
 
+//filters
+const todoCompleted = todos.map(function(todo)
+{
+    return todo.isCompleted === true;
+});
+console.log(todoText);
