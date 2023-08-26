@@ -112,7 +112,46 @@ console.log(person.hobbies.indexOf('movies')); */
 console.log(firstName);
 console.log(city);  */
 
-/* 
+
+/* const todos = [
+    {
+        id: 1,
+        text: 'Take out trash',
+        isCompleted: true
+    },
+    {
+        id: 2,
+        text: 'meeting with boss',
+        isCompleted: true
+    },
+    {
+        id: 3,
+        text: 'Dentist appointment',
+        isCompleted: false
+    }
+];
+ */
+/* console.log(todos);
+console.log(todos[1].text); */
+
+/* //TO CONVERT INTO JSON FORM
+const todoJSON = JSON.stringify(todos);
+console.log(todoJSON); */
+
+
+/* //FOR LOOP
+for(i=0; i<=15; i++){
+    console.log(i);
+}*/
+
+
+/* //WHILE LOOP
+let i = 0;
+while(i<10){
+    console.log(`While Loop Number: ${i}`);
+    i++;
+} */
+
 const todos = [
     {
         id: 1,
@@ -129,25 +168,10 @@ const todos = [
         text: 'Dentist appointment',
         isCompleted: false
     }
-]; */
+];
 
-/* console.log(todos);
-console.log(todos[1].text); */
+//forEach, map, filter
 
-/* //TO CONVERT INTO JSON FORM
-const todoJSON = JSON.stringify(todos);
-console.log(todoJSON); */
-
-
-/* //FOR LOOP
-for(i=0; i<=15; i++){
-    console.log(i);
-}*/
-
-
-//WHILE LOOP
-let i = 0;
-while(i<10){
-    console.log(`While Loop Number: ${i}`);
-    i++;
-}
+todos.forEach(function(todo){
+    console.log(todo.text);
+});
