@@ -152,7 +152,7 @@ while(i<10){
     i++;
 } */
 
-const todos = [
+/* const todos = [
     {
         id: 1,
         text: 'Take out trash',
@@ -188,4 +188,20 @@ const todoCompleted = todos.map(function(todo)
 {
     return todo.isCompleted === true;
 });
-console.log(todoText);
+console.log(todoText); */
+
+
+//OBJECT PRACTICE
+let person = {
+    firstName:'John',
+    lastName: 'Doe',
+    tech: 'JavaScript',
+    address: 'Boston',
+    laptop:{
+        cpu: 'i7',
+        ram: '4gb',
+        color: 'silver',
+        brand: 'hp'
+    }
+}
+console.log(person.laptop.brand);
