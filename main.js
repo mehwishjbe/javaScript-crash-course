@@ -284,4 +284,8 @@ if(a > b && a > c){
     console.log("c is greater than all");
 }
 
+//TERNARY OPERATOR
 
+const x = 10;
+const color = x >= 10 ? 'red' : 'blue' //if x is greater equal to 10 ? THAN set to 'red' : ELSE set to 'blue'
+console.log(color);
