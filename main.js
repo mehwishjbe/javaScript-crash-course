@@ -230,7 +230,7 @@ function greeting(user) {
  let seeOff1 = seeOff(guest);
  console.log(seeOff1); */
 
- //FUNCTIONS FOUR
+/*  //FUNCTIONS FOUR
  function table(num1) {
     for(i=1; i<=10; i++)
     {
@@ -238,5 +238,18 @@ function greeting(user) {
         console.log(`${num1} x ${i} = ${num1}*${mul}`);
     }
  }
- let receive = table(9);
+ let receive = table(9); */
+
+//FUNCTIONS FIVE
+function precessor(num, num1) {
+
+    let a = --num;
+    let b = ++num1;
+
+    console.log(`the number precessor is ${a} and the number succesor is ${b}`);
+}
+let num= 5;
+let num1 = 5;
+let receive = precessor(num, num1);
+
 
