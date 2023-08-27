@@ -388,7 +388,21 @@ ul.children[1].innerHTML = 'this is edited by "innerHTML"';
 ul.lastElementChild.innerHTML = '<h1>Hello World</h1>'; */
 
 
-//EDITING CSSDOCUMENT WITH JS
+/* //EDITING CSSDOCUMENT WITH JS
 const btn = document.querySelector('.btn')
 btn.style.background = 'red';
-btn.style.color = 'black';
+btn.style.color = 'black'; */
+
+
+//EVENT LISTENER
+const btn = document.querySelector('.btn');
+btn.addEventListener('click',(e) => {
+    e.preventDefault();
+    console.log('click');
+});
+const btn = document.querySelector('.btn');
+btn.addEventListener('click',(e) => {
+    e.preventDefault();
+    console.log(e.target.className);
+});
+
