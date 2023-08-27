@@ -360,7 +360,14 @@ const person2 = new Person('Mary', 'Go', '01-07-1989');
 console.log(person2.getBirthYear());
 console.log(person1.getFullName()); */
 
-//DOM
-
+/* //DOM
 console.log(window); //Window is parent object of browser
-alert("Close this page"); 
+alert("Close this page");  */
+
+//SINGLE ELEMENT SELECTING
+console.log(document.getElementById('my-form')); //accesssing form by getElementById
+
+console.log(document.querySelector('h1'));  //accesssing form by querySelector
+
+const form =  document.getElementById('my-form'); //accesssing form by assigning to variable
+console.log(form);
