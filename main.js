@@ -364,10 +364,19 @@ console.log(person1.getFullName()); */
 console.log(window); //Window is parent object of browser
 alert("Close this page");  */
 
-//SINGLE ELEMENT SELECTING
+/* //SINGLE ELEMENT SELECTING
 console.log(document.getElementById('my-form')); //accesssing form by getElementById
 
 console.log(document.querySelector('h1'));  //accesssing form by querySelector
 
 const form =  document.getElementById('my-form'); //accesssing form by assigning to variable
-console.log(form);
+console.log(form); */
+
+
+//MULTIPLE ELEMENT SELECTING
+console.log(document.querySelectorAll('.item'));
+console.log(document.getElementsByClassName('item'));
+console.log(document.getElementsByTagName('li'));
+
+
+
