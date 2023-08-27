@@ -290,9 +290,8 @@ const color = x >= 10 ? 'red' : 'blue' //if x is greater equal to 10 ? THAN set 
 console.log(color); */
 
 
-//SWITCH STATEMENT
+/* //SWITCH STATEMENT
 let color = 'red'
-
 switch (color) {
     case 'red': 
         console.log('color is red');
@@ -307,4 +306,17 @@ switch (color) {
     default:
         console.log('color is not match');
         break;
+} */
+
+//CONSTRUCTOR FUNCTION
+function Person(firstName, lastName, dob){
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.dob = new Date(dob);
 }
+
+//INSTANTIATE OBJECT
+const person1 = new Person('John', 'Doe', '03-01-1990');
+const person2 = new Person('Mary', 'Go', '01-07-1989');
+
+console.log(person1.dob.getDay());
