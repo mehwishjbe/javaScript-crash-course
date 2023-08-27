@@ -337,7 +337,7 @@ console.log(person1.getFullName()); */
 
 //CLASS
 
-class Person{
+/* class Person{
     constructor(firstName, lastName, dob){
         this.firstName = firstName;
         this.lastName = lastName;
@@ -358,5 +358,5 @@ const person1 = new Person('John', 'Doe', '03-01-1990');
 const person2 = new Person('Mary', 'Go', '01-07-1989');
 
 console.log(person2.getBirthYear());
-console.log(person1.getFullName());
+console.log(person1.getFullName()); */
 
