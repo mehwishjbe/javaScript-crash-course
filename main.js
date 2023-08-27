@@ -313,10 +313,19 @@ function Person(firstName, lastName, dob){
     this.firstName = firstName;
     this.lastName = lastName;
     this.dob = new Date(dob);
+    this.getBirthYear = function(){
+        return this.dob.getFullYear();
+    }
+
+    this.getFullName = function(){
+    return `${this.firstName} ${this.lastName}`;
+    }
 }
 
 //INSTANTIATE OBJECT
 const person1 = new Person('John', 'Doe', '03-01-1990');
 const person2 = new Person('Mary', 'Go', '01-07-1989');
 
-console.log(person1.dob.getDay());
+
+console.log(person2.getBirthYear());
+console.log(person1.getFullName());
