@@ -360,3 +360,7 @@ const person2 = new Person('Mary', 'Go', '01-07-1989');
 console.log(person2.getBirthYear());
 console.log(person1.getFullName()); */
 
+//DOM
+
+console.log(window); //Window is parent object of browser
+alert("Close this page"); 
