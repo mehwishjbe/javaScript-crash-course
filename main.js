@@ -395,14 +395,22 @@ btn.style.color = 'black'; */
 
 
 //EVENT LISTENER
-const btn = document.querySelector('.btn');
+/* const btn = document.querySelector('.btn');
 btn.addEventListener('click',(e) => {
     e.preventDefault();
     console.log('click');
-});
-const btn = document.querySelector('.btn');
+}); */
+/* const btn = document.querySelector('.btn');
 btn.addEventListener('click',(e) => {
     e.preventDefault();
     console.log(e.target.className);
+}); */
+
+const btn = document.querySelector('.btn');
+btn.addEventListener('click',(e) => {
+    e.preventDefault();
+    document.querySelector('#my-form').style.background = '#ccc';
+    document.querySelector('body').classList.add('btn-dark');
+    document.querySelector('.items').lastElementChild.innerHTML= '<h1>Hello World</h1>';
 });
 
