@@ -373,10 +373,16 @@ const form =  document.getElementById('my-form'); //accesssing form by assigning
 console.log(form); */
 
 
-//MULTIPLE ELEMENT SELECTING
+/* //MULTIPLE ELEMENT SELECTING
 console.log(document.querySelectorAll('.item'));
 console.log(document.getElementsByClassName('item'));
-console.log(document.getElementsByTagName('li'));
+console.log(document.getElementsByTagName('li')); */
 
 
-
+//EDITING HTMLDOCUMENT WITH JS
+const ul = document.querySelector('.items');
+//ul.remove();
+//ul.lastElementChild.remove();
+ul.firstElementChild.textContent = "this is item one"
+ul.children[1].innerHTML = 'this is edited by "innerHTML"';
+ul.lastElementChild.innerHTML = '<h1>Hello World</h1>';
