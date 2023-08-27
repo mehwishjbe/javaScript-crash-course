@@ -379,10 +379,16 @@ console.log(document.getElementsByClassName('item'));
 console.log(document.getElementsByTagName('li')); */
 
 
-//EDITING HTMLDOCUMENT WITH JS
+/* //EDITING HTMLDOCUMENT WITH JS
 const ul = document.querySelector('.items');
 //ul.remove();
 //ul.lastElementChild.remove();
 ul.firstElementChild.textContent = "this is item one"
 ul.children[1].innerHTML = 'this is edited by "innerHTML"';
-ul.lastElementChild.innerHTML = '<h1>Hello World</h1>';
+ul.lastElementChild.innerHTML = '<h1>Hello World</h1>'; */
+
+
+//EDITING CSSDOCUMENT WITH JS
+const btn = document.querySelector('.btn')
+btn.style.background = 'red';
+btn.style.color = 'black';
