@@ -406,11 +406,37 @@ btn.addEventListener('click',(e) => {
     console.log(e.target.className);
 }); */
 
-const btn = document.querySelector('.btn');
+/* const btn = document.querySelector('.btn');
 btn.addEventListener('click',(e) => {
     e.preventDefault();
     document.querySelector('#my-form').style.background = '#ccc';
     document.querySelector('body').classList.add('btn-dark');
     document.querySelector('.items').lastElementChild.innerHTML= '<h1>Hello World</h1>';
-});
+}); */
 
+const myForm = document.querySelector('#my-form');
+const nameInput = document.querySelector('#name');
+const emailInput = document.querySelector('#email');
+const msg = document.querySelector('.msg');
+const userList = document.querySelector('#user');
+
+myForm.addEventListener('submit', onSubmit);
+
+function onSubmit(e){
+    e.preventDefault();
+
+    if(nameInput.value === '' || emailInput.value === ''){
+        msg.classList.add('error');
+        msg.innerHTML = ('Please enter all fields');
+        setTimeout(() => msg.remove(), 10000);
+    }else{
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(`${nameInput.value} : ${emailInput.value}`));
+
+        userList.appendChild(li);
+
+        //clear fields after submit
+        nameInput.value = '';
+        emailInput.value = '';
+    }
+}
