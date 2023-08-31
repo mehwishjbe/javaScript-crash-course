@@ -399,12 +399,12 @@ btn.style.color = 'black'; */
 btn.addEventListener('click',(e) => {
     e.preventDefault();
     console.log('click');
-}); */
-/* const btn = document.querySelector('.btn');
+}); 
+const btn = document.querySelector('.btn');
 btn.addEventListener('click',(e) => {
     e.preventDefault();
     console.log(e.target.className);
-}); */
+});  */
 
 /* const btn = document.querySelector('.btn');
 btn.addEventListener('click',(e) => {
@@ -414,7 +414,7 @@ btn.addEventListener('click',(e) => {
     document.querySelector('.items').lastElementChild.innerHTML= '<h1>Hello World</h1>';
 }); */
 
-const myForm = document.querySelector('#my-form');
+/* const myForm = document.querySelector('#my-form');
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
 const msg = document.querySelector('.msg');
@@ -439,4 +439,23 @@ function onSubmit(e){
         nameInput.value = '';
         emailInput.value = '';
     }
+} 
+const araaylist = [1, 2, 4 ,6 ,8] */
+
+
+//COMPLEX OBJECT 
+
+let person = {
+    name:'Meh',
+    lang:'Javascript',
+    subject: { 
+        compulsory: ['CG', 'SS', 'CI'],
+        elective: ['MP', 'MM', 'FP'] 
+    }
 }
+
+/* console.log(person.subject.elective);
+console.log(person.subject.compulsory); */
+console.log(person.subject);
+
+
