@@ -460,7 +460,7 @@ console.log(person.subject.compulsory); */
  */
 
 
-//OBJECT + FUNCTION KEY
+/* //OBJECT + FUNCTION KEY
 
 let person = {
     firstName: 'John',
@@ -482,4 +482,40 @@ let laptop = {
         return this.cpu + " " + this.ram + " " + this.brandName +" "+ this.color;
     }
 }
-console.log(laptop.quaties());
+console.log(laptop.quaties()); */
+
+
+/* //TO FETCH KEYS WITH VALUES
+let person = {
+    name:'Meh',
+    lang:'Javascript',
+    laptop: {
+        brandName: 'HP',
+        cpu:'i9',
+        ram: '8GB'
+    }
+}
+for (let key in person.laptop){
+    console.log(key, person.laptop[key]);
+} */
+
+
+let cities = {
+    berlin: 'city',
+    munich: 'city',
+    saarland: 'city',
+    thuringen: {
+        schmalkalden: 'town',
+        esenach: 'town',
+        suhl: 'city',
+        erfurt: 'city',
+        leipzig: 'city',
+        oberhof: 'town',
+        frankfurt: 'city',
+        meiningin: 'town',
+    }
+}
+/* console.log(cities.thuringen); */
+for(let key in cities.thuringen){
+    console.log(key, cities.thuringen[key]);
+}
