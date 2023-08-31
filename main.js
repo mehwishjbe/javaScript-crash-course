@@ -443,7 +443,7 @@ function onSubmit(e){
 const araaylist = [1, 2, 4 ,6 ,8] */
 
 
-//COMPLEX OBJECT 
+/* //COMPLEX OBJECT 
 
 let person = {
     name:'Meh',
@@ -453,9 +453,33 @@ let person = {
         elective: ['MP', 'MM', 'FP'] 
     }
 }
-
+ */
 /* console.log(person.subject.elective);
 console.log(person.subject.compulsory); */
-console.log(person.subject);
+/* console.log(person.subject);
+ */
 
 
+//OBJECT + FUNCTION KEY
+
+let person = {
+    firstName: 'John',
+    lastName: 'Doe',
+    id: 1234,
+    fullName: function () {
+        return this.firstName + " " + this.lastName + " " + this.id;
+    }
+}
+console.log(person.fullName());
+
+
+let laptop = {
+    brandName: 'HP',
+    cpu:'i9',
+    ram: '8GB',
+    color: 'Silver',
+    quaties: function(){
+        return this.cpu + " " + this.ram + " " + this.brandName +" "+ this.color;
+    }
+}
+console.log(laptop.quaties());
